@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+    <title>Frontend Bootcamp</title>
+  </head>
+
+  <body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3">
+      <div class="container">
+        <a href="#" class="navbar-brand">Frontend Bootcamp</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target=""
+          #navmenu
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="#learn" class="nav-link">What You'll Learn</a>
+            </li>
+            <li class="nav-item">
+              <a href="#questions" class="nav-link">Questions</a>
+            </li>
+            <li class="nav-item">
+              <a href="#instructors" class="nav-link">Instructors</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--Showcase-->
+    <section
+      class="bg-dark text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start"
+    >
+      <div class="container">
+        <div class="d-sm-flex align-items-center justify-content-between">
+          <div>
+            <h1>Become a <span class="text-warning">Web Developer</span></h1>
+            <p class="lead my-4">
+              The frontend bootcamp school offers an intensive and hands-on
+              learning experience, equipping aspiring developers with the latest
+              tools and technologies in web development.
+            </p>
+            <button class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#enroll">Start the Enrollment</button>
+          </div>
+          <img
+            class="img-fluid w-50 d-none d-sm-block"
+            src="images/undraw_dev_focus_re_6iwt.svg"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!--Newsletter-->
+    <section class="bg-primary text-light p-5">
+      <div class="container">
+        <div class="d-md-flex justify-content-between align-items-center">
+          <h3 class="mb-3 mb-md-0">Sign Up For Our Newsletter</h3>
+          <div class="input-group news-input">
+            <input type="text" class="form-control" placeholder="Enter Email" />
+            <button class="btn btn-dark btn-lg" type="button">Button</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Boxes-->
+    <section class="p-5">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-md mb-3">
+            <!--card-->
+            <div class="card bg-dark text-light">
+              <div class="h1 mb-3">
+                <i class="bi bi-laptop"></i>
+              </div>
+              <h3 class="card-title mb-3">Virtual</h3>
+              <div class="card-text px-3">
+                <p>
+                  Virtual classes enable remote learning through digital
+                  platforms, offering flexibility and accessibility in
+                  education.
+                </p>
+                <a href="#" class="btn btn-primary mb-3">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md mb-3">
+            <!--card-->
+            <div class="card bg-dark text-light">
+              <div class="h1 mb-3">
+                <i class="bi bi-person-square"></i>
+              </div>
+              <h3 class="card-title mb-3">Hybrid</h3>
+              <div class="card-text px-3">
+                <p>
+                  Hybrid learning mixes in-person and online education, offering
+                  flexibility for both physical and virtual participation.
+                </p>
+                <a href="#" class="btn btn-primary mb-3">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md mb-3">
+            <!--card-->
+            <div class="card bg-dark text-light">
+              <div class="h1 mb-3">
+                <i class="bi bi-laptop"></i>
+              </div>
+              <h3 class="card-title mb-3">In Person</h3>
+              <div class="card-text px-3">
+                <p>In-person learning fosters direct interaction and engagement between students, enriching collaborative learning.
+                </p>
+                <a href="#" class="btn btn-primary mb-3">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--fundamentals-->
+    <section class="p-5">
+      <div class="container">
+        <div class="row">
+          <div class="row align-items-center justify-content-between">
+            <div class="col-md mb-3">
+              <img
+                src="images/undraw_static_assets_rpm6.svg"
+                class="img-fluid"
+                alt=""
+              />
+            </div>
+            <div class="col-md mb-3">
+              <p class="fs-3 ms-4">
+                Mastering the fundamentals of web design is a crucial step for
+                aspiring developers. Through hands-on projects, learners gain a
+                solid understanding of layout, typography, and color schemes,
+                honing their ability to create visually appealing and
+                user-friendly websites.
+              </p>
+              <button type="button" class="btn btn-outline-primary ms-4">
+                Read More
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--React-->
+    <section class="bg-dark p-5">
+      <div class="container">
+        <div class="row">
+          <div class="row align-items-center justify-content-between">
+            <div class="col-md mb-3">
+              <p class="fs-3 ms-4 text-light">
+                Learning React is crucial for developers creating dynamic user
+                interfaces. This JavaScript library simplifies development with
+                a modular, declarative approach, ensuring scalability and high
+                performance.
+              </p>
+              <button type="button" class="btn btn-outline-primary ms-4">
+                Read More
+              </button>
+            </div>
+            <div class="col-md mb-3">
+              <img
+                src="images/undraw_react_re_g3ui.svg"
+                class="img-fluid"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--questions-->
+    <section class="p-5">
+      <div class="container">
+        <h1 class="">Frequently Asked Questions</h1>
+        <div class="accordion" id="accordionPanelsStayOpenExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseOne"
+                aria-expanded="true"
+                aria-controls="panelsStayOpen-collapseOne"
+              >
+                Where are you located?
+              </button>
+            </h2>
+            <div
+              id="panelsStayOpen-collapseOne"
+              class="accordion-collapse collapse show"
+            >
+              <div class="accordion-body">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Aspernatur voluptatem iste laborum nostrum repellat id. Soluta
+                  sapiente dicta nisi architecto voluptatum iusto totam odio
+                  magni at itaque eligendi placeat in tenetur mollitia
+                  necessitatibus expedita delectus, adipisci similique quae
+                  repudiandae! Repellat!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseTwo"
+                aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseTwo"
+              >
+                How much does it cost to attend?
+              </button>
+            </h2>
+            <div
+              id="panelsStayOpen-collapseTwo"
+              class="accordion-collapse collapse"
+            >
+              <div class="accordion-body">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Aspernatur voluptatem iste laborum nostrum repellat id. Soluta
+                  sapiente dicta nisi architecto voluptatum iusto totam odio
+                  magni at itaque eligendi placeat in tenetur mollitia
+                  necessitatibus expedita delectus, adipisci similique quae
+                  repudiandae! Repellat!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseThree"
+                aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseThree"
+              >
+                Do I need prior experience with coding?
+              </button>
+            </h2>
+            <div
+              id="panelsStayOpen-collapseThree"
+              class="accordion-collapse collapse"
+            >
+              <div class="accordion-body">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Aspernatur voluptatem iste laborum nostrum repellat id. Soluta
+                  sapiente dicta nisi architecto voluptatum iusto totam odio
+                  magni at itaque eligendi placeat in tenetur mollitia
+                  necessitatibus expedita delectus, adipisci similique quae
+                  repudiandae! Repellat!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseThree"
+                aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseThree"
+              >
+                Will you help me find a job or internship?
+              </button>
+            </h2>
+            <div
+              id="panelsStayOpen-collapseThree"
+              class="accordion-collapse collapse"
+            >
+              <div class="accordion-body">
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas
+                  perspiciatis in odio, laborum atque aliquam dolore quae beatae
+                  itaque ab debitis officiis commodi sed amet perferendis
+                  laboriosam nemo et voluptate quis velit sequi reiciendis
+                  ratione! Commodi accusamus sunt neque at?
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseThree"
+                aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseThree"
+              >
+                How do I sign up?
+              </button>
+            </h2>
+            <div
+              id="panelsStayOpen-collapseThree"
+              class="accordion-collapse collapse"
+            >
+              <div class="accordion-body">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel,
+                  amet nisi magni earum consequuntur voluptate, laudantium dolor
+                  quasi beatae nulla, eos dolore architecto iusto molestiae
+                  neque ab assumenda optio maxime. Non magni, quo alias vero
+                  eligendi ab minus accusamus adipisci.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Instructors-->
+    <section class="bg-primary class="p-5"">
+      <div class="container text-center pt-5 text-white">
+        <h1>Our Instructors</h1>
+        <p class="fs-5">
+          Our instructors all have 8+ years of experiencing working as web
+          developers.
+        </p>
+        <div class="row row-cols-1 row-cols-md-2 g-4 pb-5">
+          <div class="col">
+            <div class="card">
+              <img src="images/pexels-andrea-piacquadio-762020.jpg" class="card-img-top img-thumbnail" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Olivia Bennett</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                
+             
+                
+              </div>
+              <div class="h2"><i class="bi bi-facebook"></i>
+                <i class="bi bi-twitter-x"></i>
+                <i class="bi bi-instagram"></i>
+                <i class="bi bi-linkedin"></i></div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="images/pexels-brett-sayles-1073097.jpg" class="card-img-top img-thumbnail" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Ethan Marshall</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+              <div class="h2"><i class="bi bi-facebook"></i>
+                <i class="bi bi-twitter-x"></i>
+                <i class="bi bi-instagram"></i>
+                <i class="bi bi-linkedin"></i></div>
+            </div>
+            </div>
+          </div>
+          
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Contanct-->
+<section class="pt-5 mt-5">
+  <div class="container"><div class="container text-start">
+    <div class="row">
+      <div class="col">
+        <h2>Contact Info</h2>
+        <p><span class="fw-bold">Main Location: </span> 50 Main st, Boston MA</p>
+        <hr>
+        <p><span class="fw-bold">Enrollment Phone: </span> 555-555-5555</p>
+        <hr>
+        <p><span class="fw-bold">Student Phone: </span> 333-333-3333</p>
+        <hr>
+        <p><span class="fw-bold">Enrollment Email: </span> enroll@frontendbc.test</p>
+        <hr>
+        <p><span class="fw-bold">Student Email: </span> student@frontendbc.test</p>
+        <hr>
+        
+      </div>
+      <div class="col">
+        <img src="images/desola-lanre-ologun-IgUR1iX0mqM-unsplash.jpg" class="h-75" alt="">
+      </div>
+      
+    </div>
+  </div></div>
+</section>
+    <!--Footer-->
+    <section class="bg-dark pt-5 mt-5">
+      <footer><div class="container"><div class="container text-center"><p class="text-white pb-5 fs-3">Copyright &#169 Frontend Bootcamp</p></div></div></footer>
+    </section>
+
+</footer>
+
+<!-- Modal -->
+<div class="modal fade" id="enroll" tabindex="-1" aria-labelledby=enrollLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="enrollLabel">Contact Form</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p class="lead">Fill out this form and we will get back to you.</p>
+        <form>
+          <div class="mb-3">
+            <label for="first-name" class="col-form-label">First name: </label>
+            <input type="text" class="form-control" id="first-name">
+          </div>
+          <div class="mb-3">
+            <label for="last-name" class="col-form-label">Last name: </label>
+            <input type="text" class="form-control" id="first-name">
+          </div>
+          <div class="mb-3">
+            <label for="first-name" class="col-form-label">Email: </label>
+            <input type="text" class="form-control" id="email">
+          </div>
+          <div class="mb-3">
+            <label for="first-name" class="col-form-label">Phone: </label>
+            <input type="text" class="form-control" id="phone">
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+    <!--Script-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+      src="https://maps.googleapis.com/maps/api/js?key=INSERT_YOUR_API_KEY&callback=initMap&v=weekly&solution_channel=GMP_CCS_customcontrols_v1"
+        defer
+    ></script>
+  </body>
+</html>
